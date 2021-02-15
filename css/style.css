@@ -1,0 +1,26 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+ 
+body {
+
+}
+
+p {
+
+}
+.logo img {
+	height: 50px;
+	width: auto;
+}
+
+div logo{
+	height: 80px;
+	width: 50%;
+	
+}
+
+.header-mobile {
+	background-color: none;
+}
