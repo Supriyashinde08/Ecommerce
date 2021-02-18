@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "proxima";
+  src: url("ProximaNova-Regular.otf");
+}
 * {
 	margin: 0;
 	padding: 0;
@@ -24,3 +28,293 @@ div logo{
 .header-mobile {
 	background-color: none;
 }
+
+/* Accessories */
+ .h1 p {
+  display: inline;
+  font-size: 14px;
+  font-family: "proxima", sans-serif;
+}
+ .home #acc {
+  color: #000;
+  font: bold;
+}
+
+/* All categories */
+.categories .all-categories {
+  padding-top: 22px;
+}
+.all-categories .white, .main .prices {
+  background-color: #e5e8ea;
+  padding-bottom: 10px;
+}
+.categories .all-categories .white ul {
+  padding-inline-start: 22px;
+}
+.categories .all-categories .white p,
+.main .brand p,
+.main .prices p,
+.main .radcolor p {
+  font-size: 18px;
+  padding-left: 20px;
+  padding-top: 20px;
+  font-family: "proxima", sans-serif;
+}
+.main .color,
+.main .b3,
+.main .b4 {
+  padding-top: 24px;
+}
+
+/* Prices */
+.main {
+  padding-top: 24px;
+  padding-bottom: 100px;
+}
+.main .l1 {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.main .prices {
+  position: relative;
+  background-color: #e5e8ea;
+  padding-bottom: 10px;
+  padding-top: -10px;
+}
+.main .prices .min1 {
+  position: relative;
+  size: 50%;
+  padding-bottom: 5px;
+  border: 0px;
+  font-family: "proxima", sans-serif;
+}
+.main .prices .min,
+.main .prices .max {
+  position: relative;
+  font-size: 18px;
+  font-family: "proxima", sans-serif;
+}
+
+/* Colors */
+.main .color .radcolor {
+  background-color: #e5e8ea;
+  height: 110px;
+}
+.main .color .radcolor label {
+  padding-left: 30px;
+  padding-top: 0px;
+}
+.main .color .radcolor .colors{
+    padding-left: 15px;
+}
+.main .color .radcolor .colors label {
+    padding-left: 0px;
+}
+.colors input {
+  display: none;
+}
+
+.colors input[type="radio"]:checked + .s1{
+   
+    box-shadow: inset 0 0 1px 3px rgb(255, 255, 255);
+}
+
+.s1 {
+  display: inline-block;
+  margin: 0 5px 0 0;
+  border: 1px solid #d4d4d4;
+}
+
+/* Brand details */
+
+.main .color, .main .b3, .main .b4 {
+    padding-top: 24px;
+}
+.all-categories .white, .main .brand {
+    background-color: #e5e8ea;
+ }
+
+
+.categories .all-categories .white ul li,
+.main .brand ul li {
+  list-style: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: "proxima", sans-serif;
+}
+.categories .all-categories .white ul li a,
+.main .brand ul li a {
+  font-size: 16px;
+  color: #000;
+  text-decoration: none;
+  font-family: "proxima", sans-serif;
+}
+.main .brand ul li a .brand-item {
+  padding-inline-start: 0px;
+  padding-top: 0px;
+  padding-left: -10px;
+  font-size: 16px;
+}
+.main .brand ul li a .brand-itempp {
+  color: rgb(131, 123, 123);
+}
+
+.categories .all-categories .white .active a {
+  color: #2e90e5;
+}
+.categories .all-categories .white ul li a:hover,
+.main .brand ul li a:hover {
+  color: #2e90e5;
+}
+ol, ul {
+  margin-top: 0;
+}
+.main .brand ul {
+    padding-left: 0px;
+}
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+/* Footer css */
+.footer {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid #e5e7ea;
+}
+.footer .footer1 img {
+  width: 30%;
+  height: 45px;
+}
+.footer .footer1 p,
+.footer .footer2 p,
+.footer .footer3 p {
+  position: relative;
+  font-family: "proxima", sans-serif;
+  font-size: 14px;
+  padding-left: 18px;
+
+}
+
+/* middle section */
+.main .more {
+  background-color: #e5e8ea;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: "proxima", sans-serif;
+}
+.main .more a {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  padding-left: 35%;
+  padding-top: 20px;
+  color: #129cf3;
+}
+.right-col .top-bar {
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-bottom: -10px;
+}
+.right-col .top-bar .navbar-default {
+  background-color: #e5e8ea;
+  height: 45px;
+}
+.right-col .top-bar .navbar-default ul li {
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-right: px;
+  font-size: 18px;
+  font-weight: 300;
+  font-family: "proxima", sans-serif;
+}
+.right-col .top-bar .navbar-default ul li .slist {
+  width: 100%;
+  height: 65%;
+  text-align: left;
+  padding-top: 5px;
+  border: 2px solid #d1d2d3;
+  background-color: transparent;
+}
+.right-col .top-bar .navbar-default .navbar-right .fontawth {
+  color: #1e7cf7;
+  height: 24px;
+  padding-top: 0px;
+}
+.right-col .top-bar .navbar-default .navbar-right .fontawbars {
+  height: 24px;
+  padding-top: 0px;
+}
+.right-col .top-bar .item .slist span {
+  float: right;
+  text-align: center;
+}
+
+.main .product {
+  padding-top: 12px;
+}
+.main .product .r2 {
+  padding-top: 24px;
+}
+.main .product .headset {
+  border: 1px solid #e5e8ea;
+}
+.main .product .headset img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 24px;
+  width: 50%;
+  }
+.main .product .headset p {
+  font-family: "proxima", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: center;
+}
+.main .product .headset .star {
+  text-align: center;
+}
+.main .product .headset .checked {
+  color: rgb(255, 174, 0);
+}
+.main .product .headset .notchecked {
+  color: rgb(131, 123, 123);
+}
+.main .product .headset .pp {
+  text-align: center;
+  font-size: medium;
+  font-family: "proxima", sans-serif;
+  color: #fc4646;
+  padding-bottom: 20px;
+}
+.main .product .headset .pp .ppstr {
+  text-decoration: line-through;
+  color: rgb(131, 123, 123);
+}
+.main .page-no {
+  text-align: center;
+  padding-top: 24px;
+}
+.main .pagination {
+  text-align: center;
+  background-color: #e5e8ea;
+  width: 100%;
+  padding-left: 280px;
+}
+.main .page-no ul li a {
+  color: #000;
+  background-color: transparent;
+  border: 2px solid transparent;
+}
+.main .page-no ul li a:hover {
+  background-color: #000;
+  color: #fff;
+}
+.main .pagination .active a {
+  background-color: #000;
+  color: #fff;
+}
+

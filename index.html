@@ -10,6 +10,8 @@
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/responsive.css">
 
 
 </head>
@@ -20,7 +22,7 @@
 			
 			<div class="container">
 				
-				<div class="row" style="height: 80px">
+				<div class="row1" style="height: 80px">
 					
 					<div class="col-md-8">
 						
@@ -28,15 +30,16 @@
 						<div class="logo">
 							
 							<img src="images/beep.png" alt="Logo">
+
 							
 						</div>
-
+						
 
 					</div>
 
 				</div>
 
-				<div class="row" style="height: 70px">
+				<!--<div class="row2" style="height: 70px">
 
 					<div class="col-md-8">
 
@@ -46,11 +49,23 @@
 
 						</div>
 						
-					</div>
+					</div>-->
+				<div class="container">                
+                  <div class="row">                  
+                      <div class="col-md-12">
+                          <div class="h1 text-left">                          
+                              <p id="home">Home</p> 
+                              <p id="slant">/</p>
+                              <p id="acc">Accesories</p>                         
+                          </div>                      
+                      </div>
+                  </div>
+                </div>                
+              </div>
 					
 				</div>
 
-				<div class="row">
+				<!--<div class="row">
 
 					<div class="col-md-3">
 
@@ -70,15 +85,515 @@
 						
 					</div>
 					
-				</div>
+				</div>-->
 			</div>
 		</div>
 
 	</header>
+<!-- Categories section -->
+
+	<section class="categories">
+		<div class="container categories">
+			<div class="row">
+				<div class="col-md-3 all-categories">
+                 <div class="white">
+                 <p>ALL CATEGORIES</p>
+                 <ul>
+                  <li><a href="#" class="active">Accesories</a></li>
+                  <li><a href="#">Cable & Docks</a></li>
+                  <li><a href="#">Cases & Films</a></li>
+                  <li><a href="#">Charging Devices</a></li>
+                  <li><a href="#">Connected home</a></li>
+                  <li><a href="#">Headphones</a></li>
+                </ul>
+                </div>
+
+              </div>
+              <div class="col-md-9 image">
+              	<img src="images/image.png" alt="mobile">
+              </div>
+			</div>
+		</div>
+
+	</section>
+
+	<!-- Prices section -->
+	<section class="main">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 l1">
+					<div class="row prices">
+						<p>PRICES</p>
+						<div class="col-md-4 text-left">
+							<h5 class="min">Min</h5>
+							<input class="min1" type="text" name="min" id="left" placeholder="$499" size="5px" onblur="compare()">
+						</div>
+						<div class="col-md-4 text-center">
+							<p>-</p>
+						</div>
+						<div class="col-md-4 text-right">
+							<h5 class="max">Max</h5>
+							<input class="min1" type="text" id="right" placeholder="$499"  name="max" size="5px" onblur="compare()">
+						</div>
+					</div>
+					
+
+					<div class="color">
+						<div class="row radcolor">
+							<p>COLOR</p>
+							<div class="colors">
+								<label class="radio1">
+                                <input type="radio" name="color" value="blue" checked>
+                                <span class="s1" style="background-color:#7f71e8; height:25px; width:25px;" ></span> 
+                              </label>
+                            
+                              <label class="radio1">
+                                <input type="radio" name="color" value="red">
+                                <span class="s1" style="background-color:#ff0000;height:22px; width:22px;"></span> 
+                              </label>
+                            
+                              <label class="radio1">
+                                <input type="radio" name="color" value="black">
+                                <span class="s1" style="background-color:#000000;height:22px; width:22px;"></span>
+                              </label>
+
+                              <label class="radio1">
+                                <input type="radio" name="color" value="yellow">
+                                <span class="s1" style="background-color:#fffc40; height:22px; width:22px;"></span>
+                              </label>
+
+                              <label class="radio1">
+                                <input type="radio" name="color" value="pink">
+                                <span class="s1" style="background-color:#ff25ed;height:22px; width:22px;"></span>
+                              </label>
+                              <label class="radio1">
+                                <input type="radio" name="color" value="grey">
+                                <span class="s1" style="background-color:#e7a4cb;height:22px; width:22px;"></span>
+                              </label>
+							</div>
+						</div>
+					</div>
+
+<!-- Brand details -->
+					<div class="b3">
+                      <div class="row brand">
+                      <p>BRAND</p>
+                      <ul>
+                        <li><a href="#">
+                          <div class="col-md-6 text-left brand-item">                        
+                            <p>Apple</p>
+                          </div>
+                          <div class="col-md-6 text-right brand-itempp">                        
+                            <p>99</p>
+                          </div>
+                        </a></li>
+                        <li><a href="#">
+                          <div class="col-md-6 text-left brand-item">                        
+                            <p>Beats</p>
+                          </div>
+                          <div class="col-md-6 text-right brand-itempp">                        
+                            <p>99</p>
+                          </div>
+                        </a></li>
+                        <li><a href="#">
+                          <div class="col-md-6 text-left brand-item">                        
+                            <p>Samsung</p>
+                          </div>
+                          <div class="col-md-6 text-right brand-itempp">                        
+                            <p>99</p>
+                          </div>
+                        </a></li>
+                        <li><a href="#">
+                          <div class="col-md-6 text-left brand-item">                        
+                            <p>Siemens</p>
+                          </div>
+                          <div class="col-md-6 text-right brand-itempp">                        
+                            <p>99</p>
+                          </div>
+                        </a></li>
+                      </ul>
+                      </div>
+                    </div>
+
+                    <div class="b4">
+                      <div class="row more">
+                        <a href="#" class="text-center">MORE</a>
+                      </div>
+                    </div>
+				</div>
+
+
+				<div class="col-md-9 right-col">
+
+
+                <div class="top-bar">
+                  <div class="row text-left item">
+
+                    <nav class="navbar navbar-default">
+                      
+                      <div class="collapse navbar-collapse" id="ecom-navbar-collapse-1">
+
+                        <ul class="nav navbar-nav navbar-left">
+                          <li>13 Items</li>
+                          <li>Sort By<li class="dropdown">
+                            <a href="#" class="dropdown-toggle slist" data-toggle="dropdown">Name<b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                              <li><a href="#">Color</a></li>
+                              <li><a href="#">price</a></li>
+                              <li><a href="#">company</a></li>
+                            </ul>
+                          </li>
+                          <li>Show<li class="dropdown">
+                            <a href="#" class="dropdown-toggle slist" data-toggle="dropdown">12<b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                              <li><a href="#">6</a></li>
+                              <li><a href="#">9</a></li>
+                              <li><a href="#">12</a></li>
+                            </ul>
+                          </li> 
+                        </ul>
+
+                        <ul class="nav navbar-nav navbar-right">
+                          <li><a href="#" class="fontawth"><i class="fa fa-th fa-2x"></i></a></li>
+                          <li><a href="#" class="fontawbars"><i class="fa fa-bars fa-2x"></i></a></li>
+                        </ul>
+                      </div>
+                    </nav>
+                  </div>
+                </div>
+
+                <div class="product">
+
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="headset">
+                        <img class="img-responsive" src="images/Rectangle 5@2x.png" alt="Headset">
+                        <p>
+                          Beats Solo On Ear
+                          Headphones</p>
+                        <div class="star">
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked "></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star notchecked"></i>
+                        </div>
+                        <ul class="list-inline pp">
+                          <li>$499</li>
+                          <li class="ppstr">$599</li>
+                        </ul>
+                      </div>
+                    </div>
+
+                    <div class="col-md-4">
+                      <div class="headset">
+                        <img src="images/Rectangle 5@2x.png" alt="Headset">
+                        <p>
+                          Beats Solo On Ear
+                          Headphones</p>
+                        <div class="star">
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked "></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star notchecked"></i>
+                        </div>
+                        <ul class="list-inline pp">
+                          <li>$499</li>
+                          <li class="ppstr">$599</li>
+                        </ul>
+                      </div>
+                    </div>
+
+                    <div class="col-md-4">
+                      <div class="headset">
+                        <img src="images/Rectangle 5@2x.png" alt="Headset">
+                        <p>
+                          Beats Solo On Ear
+                          Headphones</p>
+                        <div class="star">
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked "></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star notchecked"></i>
+                        </div>
+                        <ul class="list-inline pp">
+                          <li>$499</li>
+                          <li class="ppstr">$599</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>  
+
+                  
+
+                  <div class="row r2">
+                    <div class="col-md-4">
+                      <div class="headset">
+                        <img src="images/Rectangle 5@2x.png" alt="Headset">
+                        <p>
+                          Beats Solo On Ear
+                          Headphones</p>
+                        <div class="star">
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked "></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star notchecked"></i>
+                        </div>
+                        <ul class="list-inline pp">
+                          <li>$499</li>
+                          <li class="ppstr">$599</li>
+                        </ul>
+                      </div>
+                    </div>
+
+                    <div class="col-md-4">
+                      <div class="headset">
+                        <img src="images/Rectangle 5@2x.png" alt="Headset">
+                        <p>
+                          Beats Solo On Ear
+                          Headphones</p>
+                        <div class="star">
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked "></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star notchecked"></i>
+                        </div>
+                        <ul class="list-inline pp">
+                          <li>$499</li>
+                          <li class="ppstr">$599</li>
+                        </ul>
+                      </div>
+                    </div>
+
+                    <div class="col-md-4">
+                      <div class="headset">
+                        <img src="images/Rectangle 5@2x.png" alt="Headset">
+                        <p>
+                          Beats Solo On Ear
+                          Headphones</p>
+                        <div class="star">
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked "></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star notchecked"></i>
+                        </div>
+                        <ul class="list-inline pp">
+                          <li>$499</li>
+                          <li class="ppstr">$599</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+
+
+
+                  <div class="row r2">
+                    <div class="col-md-4">
+                      <div class="headset">
+                        <img src="images/Rectangle 5@2x.png" alt="Headset">
+                        <p>
+                          Beats Solo On Ear
+                          Headphones</p>
+                        <div class="star">
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked "></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star notchecked"></i>
+                        </div>
+                        <ul class="list-inline pp">
+                          <li>$499</li>
+                          <li class="ppstr">$599</li>
+                        </ul>
+                      </div>
+                    </div>
+
+                    <div class="col-md-4">
+                      <div class="headset">
+                        <img src="images/Rectangle 5@2x.png" alt="Headset">
+                        <p>
+                          Beats Solo On Ear
+                          Headphones</p>
+                        <div class="star">
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked "></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star notchecked"></i>
+                        </div>
+                        <ul class="list-inline pp">
+                          <li>$499</li>
+                          <li class="ppstr">$599</li>
+                        </ul>
+                      </div>
+                    </div>
+
+                    <div class="col-md-4">
+                      <div class="headset">
+                        <img src="images/Rectangle 5@2x.png" alt="Headset">
+                        <p>
+                          Beats Solo On Ear
+                          Headphones</p>
+                        <div class="star">
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked "></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star notchecked"></i>
+                        </div>
+                        <ul class="list-inline pp">
+                          <li>$499</li>
+                          <li class="ppstr">$599</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+
+
+
+                  <div class="row r2">
+                    <div class="col-md-4">
+                      <div class="headset">
+                        <img src="images/Rectangle 5@2x.png" alt="Headset">
+                        <p>
+                          Beats Solo On Ear
+                          Headphones</p>
+                        <div class="star">
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked "></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star notchecked"></i>
+                        </div>
+                        <ul class="list-inline pp">
+                          <li>$499</li>
+                          <li class="ppstr">$599</li>
+                        </ul>
+                      </div>
+                    </div>
+
+                    <div class="col-md-4">
+                      <div class="headset">
+                        <img src="images/Rectangle 5@2x.png" alt="Headset">
+                        <p>
+                          Beats Solo On Ear
+                          Headphones</p>
+                        <div class="star">
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked "></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star notchecked"></i>
+                        </div>
+                        <ul class="list-inline pp">
+                          <li>$499</li>
+                          <li class="ppstr">$599</li>
+                        </ul>
+                      </div>
+                    </div>
+
+                    <div class="col-md-4">
+                      <div class="headset">
+                        <img src="images/Rectangle 5@2x.png" alt="Headset">
+                        <p>
+                          Beats Solo On Ear
+                          Headphones</p>
+                        <div class="star">
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked "></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star notchecked"></i>
+                        </div>
+                        <ul class="list-inline pp">
+                          <li>$499</li>
+                          <li class="ppstr">$599</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>                  
+                  
+                </div>
+                
+                <div class="page-no text-center">
+                  <ul class="pagination pagination-lg">
+                    <li><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li class="active"><a href="#">3</a></li>
+                    <li><a href="#" >4</a></li>
+                    <li><a href="#">5</a></li>
+                  </ul>
+                </div>
+
+
+              </div>
+
+
+			</div>
+		</div>
+
+	</section>
+
+	<!-- Footer section -->
+	<section class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 footer1">
+					<img src="images/footer_image.png" alt="Footer Image beep">
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever. Since the 1500s, when an unknown printer.</p>
+
+				</div>
+				<div class="col-md-4 footer2">
+					<h5> Follow us </h5>
+					<p>Since the 1500s, when an unknown printer took a galley of type and scrambled.</p>
+					<a href="#"><img src="images/facebook.png"></a>
+					<a href="#"><img src="images/twitter.png"></a>
+
+				</div>
+				<div class="col-md-4 footer3">
+					<h5> Contact us </h5>
+					<p>My Company , 4578 Marmora Road, Glasgow D04 89GR.<br>Call us now: 0123-456-789 <br> Email: support@whatever.com</p>
+
+				</div>
+			</div>
+
+		</div>
+
+	</section>
+
+	<!-- Copyright section -->
+	<section class="copyright">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<div id="copy">
+						<p> &copy; 2021 Ecommerce site by www.beep.com</p>
+					</div>
+				</div>
+				<div class="col-md-6 text-right">
+					<img src="images/Western-union.png">
+                    <img src="images/mastercard.png">
+                    <img src="images/Paypal.png"> 
+                    <img src="images/visa.png"> 
+
+				</div>
+			</div>
+
+		</div>
+
+	</section>
 
 
 	<!-- Bootstrap Javascript -->
 	<script type="js/bootstrap.min.js"></script>
 	<script type="js/jquery.js"></script>
+	<script src="js/custom.js"></script>
 </body>
 </html>
